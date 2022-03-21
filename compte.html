@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+    <title>Document</title>
+  </head>
+    <!-- ***********NAVBAR SECTION***************************** -->
+
+    <section id="header">
+      <a href="#"><h2>e:Mode</h2></a>
+
+      <div class="header_container">
+        <ul id="navbar">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="shop.html">Boutique</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a class="active" href="compte.html">Se Connecter</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="lg-bag">
+              <a href="panier.html"><img src="./img/reseaux/shopping-bag-bag-svgrepo-com.svg" alt=""></a>
+            </li>
+            <a href="#" id="close"><img src="./img/reseaux/shopping-bag-bag-svgrepo-com.svg" alt=""></a>
+          </ul>
+        </div>
+        <div id="mobile">
+          <a href="panier.html"><img src="./img/reseaux/shopping-bag-bag-svgrepo-com.svg" alt=""></a>
+          <i id="bar"><img src="./img/reseaux/hamburger-menu-svgrepo-com.svg" alt=""></i>
+        </div>
+    </section>
+
+    <!-- ***********HERO SECTION***************************** -->
+
+    <section id="page-header" class="blog-header">
+      <h2>#parlez-nous</h2>
+      <p>Lorem ipsum dolor sit.</p>
+    </section>
+
+
+    <section id="form-details">
+        <form>
+            <span>Créer un Compte</span>
+            <h2>S’inscrire</h2>
+            <input id="pseudo" type="text" placeholder="Pseudo" autocomplete="off">
+            <input id="eMail" type="text" placeholder="e-mail" autocomplete="off">
+            <input id="mdp" type="password" placeholder="Mot De Passe" autocomplete="off">
+            <input id="confirmMdp" type="password" placeholder="Confirmation Mot De Passe" autocomplete="off">
+            <span id="error"></span>
+            <button type="button" id="formBtn" class="normal">Envoyer</button>
+        </form>
+    </section>
+
+
+
+    <!-- *********************NEWSLATTER********************* -->
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="news_text">
+        <h4>Abonnez vous à notre newsletter</h4>
+        <p>
+          Inscrivez-vous à notre newsletter et profitez la 
+          <span>livraison offerte</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="email adresse" />
+        <button class="normal">je m'Abonne</button>
+      </div>
+    </section>
+
+    <!-- *********************FOOTER********************* -->
+
+    <footer class="section-p1">
+      <div class="col">
+        <a href="#"><h2>e:Mode</h2></a>
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 1 rue Gustave Eiffel 75001 Paris</p>
+        <p><strong>Numero Tel:</strong> +33 777 77 77 77</p>
+        <p><strong>Horaires:</strong> 10h - 18h , Lun - Ven</p>
+        <div class="follow">
+          <h4>Plus d’inspiration</h4>
+          <div class="icon">
+            <a href="https://fr-fr.facebook.com"><img src="./img/reseaux/facebook-svgrepo-com.svg" alt=""></a>
+            <a href="https://www.instagram.com"><img src="./img/reseaux/instagram-svgrepo-com.svg" alt=""></a>
+            <a href="https://www.pinterest.fr"><img src="./img/reseaux/pinterest-svgrepo-com.svg" alt=""></a>
+            <a href="https://twitter.com"><img src="./img/reseaux/twitter-svgrepo-com.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#"> Moyens de paiement</a>
+        <a href="#"> Guides des tailles</a>
+        <a href="#"> Retour & remboursement</a>
+        <a href="#"> Suivre mon colis</a>
+        <a href="#"> Essayez d'abord, payez après</a>
+      </div>
+      <div class="col">
+        <h4>Mon Compt</h4>
+        <a href="#"> Se Connecter</a>
+        <a href="#"> Je suis nouveau ici</a>
+        <a href="#"> Mentions légales</a>
+        <a href="#"> Conditions d’utilisation</a>
+        <a href="#"> Politique de confidentialité</a>
+      </div>
+
+      <div class="col install">
+        <h4>Telecharger l'Application</h4>
+        <p>Chez App Store ou Google Play</p>
+        <div class="row">
+          <img src="./img/pay/app.jpg" alt="" />
+          <img src="./img/pay/play.jpg" alt="" />
+        </div>
+        <p>Payment Securisé</p>
+        <img src="./img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>© 2022 Projet Artur Aghasafyants</p>
+      </div>
+    </footer>
+
+    <script src="login.js"></script>
+  </body>
+</html>
